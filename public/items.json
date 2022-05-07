@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "name": "MOCKBOOK X1",
+    "img": "https://i.ibb.co/PhR4JG0/model1.png",
+    "description": "#",
+    "price": 499,
+    "quantity": 20,
+    "supplier": "Sakib"
+  },
+  {
+    "id": "2",
+    "name": "MOCKBOOK X1",
+    "img": "https://i.ibb.co/KjcGPHv/model2.png",
+    "description": "#",
+    "price": 499,
+    "quantity": 20,
+    "supplier": "Sakib"
+  },
+  {
+    "id": "3",
+    "name": "MOCKBOOK X1",
+    "img": "https://i.ibb.co/Fk1VfFX/model3.png",
+    "description": "#",
+    "price": 499,
+    "quantity": 20,
+    "supplier": "Sakib"
+  },
+  {
+    "id": "4",
+    "name": "MOCKBOOK X1",
+    "img": "https://i.ibb.co/sbXv9Tv/model4.png",
+    "description": "#",
+    "price": 499,
+    "quantity": 20,
+    "supplier": "Sakib"
+  },
+  {
+    "id": "5",
+    "name": "MOCKBOOK X1",
+    "img": "https://i.ibb.co/5xDmCrj/model5.png",
+    "description": "#",
+    "price": 499,
+    "quantity": 20,
+    "supplier": "Sakib"
+  },
+  {
+    "id": "6",
+    "name": "MOCKBOOK X1",
+    "img": "https://i.ibb.co/kH1wY0Z/model6.png",
+    "description": "#",
+    "price": 499,
+    "quantity": 20,
+    "supplier": "Sakib"
+  },
+  {
+    "id": "7",
+    "name": "MOCKBOOK X1",
+    "img": "https://i.ibb.co/RCX247Y/model7.png",
+    "description": "#",
+    "price": 499,
+    "quantity": 20,
+    "supplier": "Sakib"
+  },
+  {
+    "id": "8",
+    "name": "MOCKBOOK X1",
+    "img": "https://i.ibb.co/c3yGVMk/model8.png",
+    "description": "#",
+    "price": 499,
+    "quantity": 20,
+    "supplier": "Sakib"
+  },
+  {
+    "id": "9",
+    "name": "MOCKBOOK X1",
+    "img": "https://i.ibb.co/KNvxKdf/model9.png",
+    "description": "#",
+    "price": 499,
+    "quantity": 20,
+    "supplier": "Sakib"
+  },
+  {
+    "id": "10",
+    "name": "MOCKBOOK X1",
+    "img": "https://i.ibb.co/bNFBRMf/model10.png",
+    "description": "#",
+    "price": 499,
+    "quantity": 20,
+    "supplier": "Sakib"
+  },
+  {
+    "id": "11",
+    "name": "MOCKBOOK X1",
+    "img": "https://i.ibb.co/sbykSYJ/model11.png",
+    "description": "#",
+    "price": 499,
+    "quantity": 20,
+    "supplier": "Sakib"
+  },
+  {
+    "id": "12",
+    "name": "MOCKBOOK X1",
+    "img": "https://i.ibb.co/wwgwNdQ/model12.png",
+    "description": "#",
+    "price": 499,
+    "quantity": 20,
+    "supplier": "Sakib"
+  }
+]
