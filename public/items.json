@@ -1,110 +1,110 @@
 [
   {
     "id": "1",
-    "name": "MOCKBOOK X1",
+    "name": "Mazda CX-30",
     "img": "https://i.ibb.co/PhR4JG0/model1.png",
-    "description": "#",
-    "price": 499,
+    "description": "Slick styling,Smooth 4-cylinder,Lots of standard featuresStandard all-wheel drive",
+    "price": 22500,
     "quantity": 20,
-    "supplier": "Sakib"
+    "supplier": "Mazda"
   },
   {
     "id": "2",
-    "name": "MOCKBOOK X1",
+    "name": "Mercedes-Benz SL Class",
     "img": "https://i.ibb.co/KjcGPHv/model2.png",
-    "description": "#",
-    "price": 499,
+    "description": "Unique style, Great interior,Strong turbocharged engines,Decent ride quality",
+    "price": 29500,
     "quantity": 20,
-    "supplier": "Sakib"
+    "supplier": "Mercedes"
   },
   {
     "id": "3",
-    "name": "MOCKBOOK X1",
+    "name": "BMW X6",
     "img": "https://i.ibb.co/Fk1VfFX/model3.png",
-    "description": "#",
-    "price": 499,
+    "description": "Rowdy V-8 power,Smooth moves,Beauty more than skin deep,Cloth top blocks sound like a hard top,Built to a high standard",
+    "price": 28000,
     "quantity": 20,
-    "supplier": "Sakib"
+    "supplier": "BMW"
   },
   {
     "id": "4",
-    "name": "MOCKBOOK X1",
+    "name": "Audi Q8",
     "img": "https://i.ibb.co/sbXv9Tv/model4.png",
-    "description": "#",
-    "price": 499,
+    "description": "Superlative performance version,Handsome interior,Great space,Good tech,Excellent safety record",
+    "price": 31500,
     "quantity": 20,
-    "supplier": "Sakib"
+    "supplier": "Audi"
   },
   {
     "id": "5",
-    "name": "MOCKBOOK X1",
+    "name": "Toyota C-HR",
     "img": "https://i.ibb.co/5xDmCrj/model5.png",
-    "description": "#",
-    "price": 499,
+    "description": "Grabby looks,Rides well,Standard safety tech,Decent value",
+    "price": 30000,
     "quantity": 20,
-    "supplier": "Sakib"
+    "supplier": "Toyota"
   },
   {
     "id": "6",
-    "name": "MOCKBOOK X1",
+    "name": "Subaru Crosstrek",
     "img": "https://i.ibb.co/kH1wY0Z/model6.png",
-    "description": "#",
-    "price": 499,
+    "description": "Excellent CVT,Off-road capable, rugged looks,Standard AWD,New Sport trim,Standard safety tech",
+    "price": 33000,
     "quantity": 20,
-    "supplier": "Sakib"
+    "supplier": "SCK"
   },
   {
     "id": "7",
-    "name": "MOCKBOOK X1",
+    "name": "Hyundai Kona",
     "img": "https://i.ibb.co/RCX247Y/model7.png",
-    "description": "#",
-    "price": 499,
+    "description": "Squirty handling,Standard automatic emergency braking,Very good infotainment,Reasonable fuel economy,Kona Electric",
+    "price": 33000,
     "quantity": 20,
-    "supplier": "Sakib"
+    "supplier": "Hyundai"
   },
   {
     "id": "8",
-    "name": "MOCKBOOK X1",
+    "name": "Chevrolet Trax",
     "img": "https://i.ibb.co/c3yGVMk/model8.png",
-    "description": "#",
-    "price": 499,
+    "description": "Grabby looks,Rides well,Standard safety tech,Decent value",
+    "price": 30000,
     "quantity": 20,
-    "supplier": "Sakib"
+    "supplier": "Chevrolet"
   },
   {
     "id": "9",
-    "name": "MOCKBOOK X1",
+    "name": "Lincoln Navigator",
     "img": "https://i.ibb.co/KNvxKdf/model9.png",
-    "description": "#",
-    "price": 499,
+    "description": "Great seats,Second-row massage option,Standard adaptive suspension,Larger touchscreen,Excellent standard safety and convenience features",
+    "price": 32000,
     "quantity": 20,
-    "supplier": "Sakib"
+    "supplier": "Lincoln"
   },
   {
     "id": "10",
-    "name": "MOCKBOOK X1",
+    "name": "INFINITI QX80",
     "img": "https://i.ibb.co/bNFBRMf/model10.png",
-    "description": "#",
-    "price": 499,
+    "description": "Forceful V-8,Subdued, spacious interior,Decent standard tech,Good towing ability",
+    "price": 34000,
     "quantity": 20,
-    "supplier": "Sakib"
+    "supplier": "Infiniti"
   },
   {
     "id": "11",
-    "name": "MOCKBOOK X1",
+    "name": "Nissan Armada",
     "img": "https://i.ibb.co/sbykSYJ/model11.png",
-    "description": "#",
-    "price": 499,
+    "description": "Spacious inside,Lusty V-8,Strong for towing,Good safety features,Value at the base level",
+    "price": 33500,
     "quantity": 20,
-    "supplier": "Sakib"
+    "supplier": "Nissan"
   },
   {
     "id": "12",
-    "name": "MOCKBOOK X1",
+    "name": "Chrysler Pacifica",
     "img": "https://i.ibb.co/wwgwNdQ/model12.png",
-    "description": "#",
-    "price": 499,
+    "description": "Sleek styling and details,Comfortable, high-quality interior,Excellent plug-in hybrid efficiency",
+    "price": 35000,
     "quantity": 20,
-    "supplier": "Sakib"
+    "supplier": "Chrysler"
   }
 ]
