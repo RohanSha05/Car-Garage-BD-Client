@@ -3,7 +3,6 @@ import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 
 const Item = ({ item }) => {
-    console.log(item)
     const { id, name, description, img, price, quantity, supplier } = item;
     return (
         <div>
