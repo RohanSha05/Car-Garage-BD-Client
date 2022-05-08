@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Item/Item.css'
 
 const Item = ({ item, items, setItems }) => {
     const { _id, name, description, img, price, quantity, supplier } = item;
@@ -24,7 +25,7 @@ const Item = ({ item, items, setItems }) => {
     return (
         <div>
             <div classNameName="col">
-                <div className="card">
+                <div className="card each-item">
                     <img src={img} className="card-img-top w-75 mx-auto" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Name: {name}</h5>
@@ -33,7 +34,7 @@ const Item = ({ item, items, setItems }) => {
                         <p className="card-text">Details: {description}</p>
                         <p className="card-text">Quantity: {quantity}</p>
                         <p className="card-text">Supplier: {supplier}</p>
-                        <button onClick={handleItemDelete} className='btn btn-info'>Delete</button>
+                        <button onClick={handleItemDelete} className='btn btn-dark'>Delete</button>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
-import { Button } from 'bootstrap';
 import React from 'react';
-import { Form } from 'react-bootstrap';
+import '../AddItems/AddItems.css'
+
 
 const AddItems = () => {
 
@@ -30,28 +30,28 @@ const AddItems = () => {
 
     return (
         <div>
-            <h2>Add New Item</h2>
-            <form onSubmit={handleAddItem}>
-                <div class="form-group">
-                    <input type="text" class="form-control" name="name"
+            <form className='rounded w-50 mx-auto form mt-5 p-5 mb-5' onSubmit={handleAddItem}>
+                <h2 className='text-center'>Please, Add New Item</h2>
+                <div className="form-group mb-3">
+                    <input type="text" className="form-control" name="name"
                         aria-describedby="emailHelp" placeholder="name" />
                 </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Image" name='image' />
+                <div className="form-group mb-3">
+                    <input type="text" className="form-control" placeholder="Image" name='image' />
                 </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="description" name='description' />
+                <div className="form-group mb-3">
+                    <input type="text" className="form-control" placeholder="description" name='description' />
                 </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Price" name='price' />
+                <div className="form-group mb-3">
+                    <input type="text" className="form-control" placeholder="Price" name='price' />
                 </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="quantity" name='quantity' />
+                <div className="form-group mb-3">
+                    <input type="text" className="form-control" placeholder="quantity" name='quantity' />
                 </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="supplier" name='supplier' />
+                <div className="form-group mb-3">
+                    <input type="text" className="form-control" placeholder="supplier" name='supplier' />
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" className="btn btn-primary">Submit</button>
             </form>
         </div>
     );
