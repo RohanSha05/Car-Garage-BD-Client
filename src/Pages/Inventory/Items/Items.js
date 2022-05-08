@@ -3,7 +3,6 @@ import Item from '../Item/Item';
 
 const Items = () => {
     const [items, setItems] = useState([]);
-
     useEffect(() => {
         fetch('http://localhost:5000/item')
             .then(res => res.json())
@@ -17,6 +16,7 @@ const Items = () => {
                     item={item}>
                 </Item>)
             }
+            <button className='btn btn-info'><a href="">Add more items</a></button>
         </div>
     );
 };
