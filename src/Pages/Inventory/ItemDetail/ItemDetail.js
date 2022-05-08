@@ -18,6 +18,8 @@ const ItemDetail = () => {
         console.log(quantity)
         const newQuantity = quantity - 1;
     }
+
+
     return (
         <div>
             <div classNameName="col">
@@ -31,6 +33,7 @@ const ItemDetail = () => {
                         <p className="card-text">Quantity: {quantity}</p>
                         <p className="card-text">Supplier: {supplier}</p>
                         <button onClick={handleQuantity} className='btn btn-info'>Delivered</button>
+
                     </div>
                 </div>
             </div>        </div>

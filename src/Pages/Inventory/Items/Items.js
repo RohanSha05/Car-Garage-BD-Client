@@ -13,10 +13,13 @@ const Items = () => {
             {
                 items.map(item => <Item
                     key={item._id}
-                    item={item}>
+                    item={item}
+                    items={items}
+                    setItems={setItems}
+                >
                 </Item>)
             }
-            <button className='btn btn-info'><a href="">Add more items</a></button>
+            <button className='btn btn-info'><a href="/additems">Add more items</a></button>
         </div>
     );
 };

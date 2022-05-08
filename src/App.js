@@ -5,6 +5,7 @@ import Header from './Pages/Header/Header';
 import Footer from './Pages/Footer/Footer';
 import Items from './Pages/Inventory/Items/Items';
 import ItemDetail from './Pages/Inventory/ItemDetail/ItemDetail';
+import AddItems from './Pages/AddItems/AddItems';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path='/item' element={<Items></Items>}></Route>
         <Route path="/item/:itemId" element={<ItemDetail></ItemDetail>}></Route>
+        <Route path="/additems" element={<AddItems></AddItems>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
