@@ -1,8 +1,13 @@
 import { Button } from 'bootstrap';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const DisplayItem = ({ displayItem }) => {
-    const { name, img, price, description, supplier, quantity } = displayItem
+    const { id, name, img, price, description, supplier, quantity } = displayItem;
+    const navigate = useNavigate();
+    const navigateItemDetail = id => {
+        navigate(`/item/${id}`)
+    }
     return (
         <div>
             <div classNameName="col">
@@ -14,7 +19,7 @@ const DisplayItem = ({ displayItem }) => {
                         <p className="card-text">Details: {description}</p>
                         <p className="card-text">Quantity: {quantity}</p>
                         <p className="card-text">Supplier: {supplier}</p>
-                        <button className='btn btn-info'>Update</button>
+                        <button onClick={() => navigateItemDetail(id)} className='btn btn-info'>Update</button>
                     </div>
                 </div>
             </div>

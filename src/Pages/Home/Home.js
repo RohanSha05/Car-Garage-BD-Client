@@ -32,6 +32,7 @@ const Home = () => {
             </div>
             <ReviewSection></ReviewSection>
             <ServiceSection></ServiceSection>
+            <h3 className='text-center bg-info p-3 mt-3'>Inventory Items</h3>
             <DisplayItems></DisplayItems>
         </div>
     );

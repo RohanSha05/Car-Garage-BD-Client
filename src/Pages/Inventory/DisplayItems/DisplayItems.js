@@ -5,7 +5,7 @@ const DisplayItems = () => {
     const [displayItems, setDisplayItems] = useState([]);
 
     useEffect(() => {
-        fetch('items.json')
+        fetch('http://localhost:5000/item')
             .then(res => res.json())
             .then(data => setDisplayItems(data))
     }, [])
@@ -15,7 +15,7 @@ const DisplayItems = () => {
         <div className='row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4 mt-5'>
             {
                 displaySixItem.map(displayItem => <DisplayItem
-                    key={displayItem.id}
+                    key={displayItem._id}
                     displayItem={displayItem}>
                 </DisplayItem>)
             }
