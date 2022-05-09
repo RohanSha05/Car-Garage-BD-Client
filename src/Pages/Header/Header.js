@@ -36,6 +36,30 @@ const Header = () => {
                         <Nav>
                             {
                                 user ?
+                                    <Nav.Link href="/item" onClick={handleSignOut}>Manage Items</Nav.Link>
+                                    :
+                                    <button className='d-none'></button>
+                            }
+                        </Nav>
+                        <Nav>
+                            {
+                                user ?
+                                    <Nav.Link onClick={handleSignOut}>Add Items</Nav.Link>
+                                    :
+                                    <button className='d-none'></button>
+                            }
+                        </Nav>
+                        <Nav>
+                            {
+                                user ?
+                                    <Nav.Link onClick={handleSignOut}>My items</Nav.Link>
+                                    :
+                                    <button className='d-none'></button>
+                            }
+                        </Nav>
+                        <Nav>
+                            {
+                                user ?
                                     <Button onClick={handleSignOut}>Sign out</Button>
                                     :
                                     <Nav.Link href="/login">

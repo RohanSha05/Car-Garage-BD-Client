@@ -33,7 +33,8 @@ const ItemDetail = () => {
                         <p className="card-text">Quantity: {quantity}</p>
                         <p className="card-text">Supplier: {supplier}</p>
                         <button onClick={handleQuantity} className='btn btn-info'>Delivered</button>
-
+                        <input className="form-control form-control-lg mt-3" type="text" placeholder="Stock Items" aria-label=".form-control-lg example" />
+                        <input className='mt-3 bg-info' type="submit" value="Stock Items" />
                     </div>
                 </div>
             </div>        </div>

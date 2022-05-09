@@ -6,8 +6,6 @@ const Item = ({ item, items, setItems }) => {
     const handleItemDelete = () => {
         const proceed = window.confirm('Are you sure to delete this product?')
         if (proceed) {
-
-            console.log('deleteting user with id', _id)
             const url = `https://ancient-crag-99088.herokuapp.com/item/${_id}`;
             fetch(url, {
                 method: "DELETE"
