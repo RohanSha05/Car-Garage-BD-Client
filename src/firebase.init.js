@@ -1,6 +1,7 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
+/* // Import the functions you need from the SDKs you need
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -12,6 +13,21 @@ const firebaseConfig = {
     storageBucket: process.env.REACT_APP_storageBucket,
     messagingSenderId: process.env.REACT_APP_messagingSenderId,
     appId: process.env.REACT_APP_appId,
+};
+ */
+// Initialize Firebase
+// Import the functions you need from the SDKs you need
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+    apiKey: "AIzaSyDVQERce5Fi9oaUnJ_GDZUkNozLVg4wlQg",
+    authDomain: "car-garage-bd-ef64a.firebaseapp.com",
+    projectId: "car-garage-bd-ef64a",
+    storageBucket: "car-garage-bd-ef64a.appspot.com",
+    messagingSenderId: "482042048605",
+    appId: "1:482042048605:web:7f961949f7e9f316e05db4"
 };
 
 // Initialize Firebase
