@@ -8,7 +8,7 @@ const Item = ({ item, items, setItems }) => {
         if (proceed) {
 
             console.log('deleteting user with id', _id)
-            const url = `http://localhost:5000/item/${_id}`;
+            const url = `https://ancient-crag-99088.herokuapp.com/item/${_id}`;
             fetch(url, {
                 method: "DELETE"
             })
