@@ -5,6 +5,7 @@ import ReviewSection from '../ReviewSection/ReviewSection';
 import ServiceSection from '../ServiceSection/ServiceSection';
 import '../Home/Home.css'
 import DisplayItems from '../Inventory/DisplayItems/DisplayItems';
+import inventory from '../../images/inventory/inventory.png'
 
 const Home = () => {
     return (
@@ -32,7 +33,7 @@ const Home = () => {
             </div>
             <ReviewSection></ReviewSection>
             <ServiceSection></ServiceSection>
-            <h3 className='text-center bg-info p-3 mt-3'>Inventory Items</h3>
+            <h3 className='text-center inventory-body p-3 mt-3'><span><img className='inventory' src={inventory} alt="" /></span>Inventory </h3>
             <DisplayItems></DisplayItems>
         </div>
     );

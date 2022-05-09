@@ -7,6 +7,8 @@ import Items from './Pages/Inventory/Items/Items';
 import ItemDetail from './Pages/Inventory/ItemDetail/ItemDetail';
 import AddItems from './Pages/AddItems/AddItems';
 import NotFound from './Pages/NotFound/NotFound';
+import Login from './Pages/Login/Login/Login';
+import Register from './Pages/Login/Register/Register';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path='/item' element={<Items></Items>}></Route>
         <Route path="/item/:itemId" element={<ItemDetail></ItemDetail>}></Route>
         <Route path="/additems" element={<AddItems></AddItems>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>

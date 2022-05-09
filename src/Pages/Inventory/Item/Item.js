@@ -28,8 +28,8 @@ const Item = ({ item, items, setItems }) => {
                 <div className="card each-item">
                     <img src={img} className="card-img-top w-75 mx-auto" alt="..." />
                     <div className="card-body">
-                        <h5 className="card-title">Name: {name}</h5>
-                        <p className="card-text">Id: {_id}</p>
+                        <h5 className="card-title">Model: {name}</h5>
+                        <p className="card-text">{_id}</p>
                         <p className="card-text">Price: {price}</p>
                         <p className="card-text">Details: {description}</p>
                         <p className="card-text">Quantity: {quantity}</p>
